@@ -4,17 +4,17 @@ pipeline {
     stage('Build') {
       steps {
         sh 'echo "Building..."'
-        sh 'chmod +x scripts/Linux-Build.sh'
-        sh 'scripts/Linux-Build.sh'
-        archiveArtifacts(artifacts: 'bin/Debug/*', fingerprint: true)
+        sh 'chmod +x scripts/build.sh'
+        sh 'scripts/build.sh'
+        archiveArtifacts(artifacts: 'build/Linux/aarch64/source/App/*', fingerprint: true)
       }
     }
 
     stage('Test') {
       steps {
         sh 'echo "Running..."'
-        sh 'chmod +x scripts/Linux-Run.sh'
-        sh 'scripts/Linux-Run.sh'
+        sh 'chmod +x scripts/run.sh'
+        sh 'scripts/run.sh'
       }
     }
 

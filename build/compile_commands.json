@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/c/Users/Bianca/HelloJenkins/build/src",
+  "command": "/usr/bin/g++-10   -I/mnt/c/Users/Bianca/HelloJenkins/src/../include  -g   -std=c++17 -o CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.o -c /mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp",
+  "file": "/mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp"
+},
+{
+  "directory": "/mnt/c/Users/Bianca/HelloJenkins/build/apps",
+  "command": "/usr/bin/g++-10   -I/mnt/c/Users/Bianca/HelloJenkins/src/../include  -g   -std=c++17 -o CMakeFiles/HelloJenkins.dir/main.cpp.o -c /mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp",
+  "file": "/mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp"
+}
+]

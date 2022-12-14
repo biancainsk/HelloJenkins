@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHello_Jenkins.a  CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.o
+/usr/bin/ranlib libHello_Jenkins.a
