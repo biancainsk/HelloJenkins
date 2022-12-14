@@ -14,7 +14,7 @@ pipeline {
       steps {
         sh 'echo "Running..."'
         sh 'chmod +x run.sh'
-        sh '/var/jenkins_home/workspace/HelloJenkins_main/run.sh'
+        sh './run.sh'
       }
     }
 
