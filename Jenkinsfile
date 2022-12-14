@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'echo "Building..."'
         sh 'chmod +x build.sh'
-        sh 'build.sh'
+        sh './build.sh'
         archiveArtifacts(artifacts: 'scripts/*', fingerprint: true)
       }
     }
@@ -14,7 +14,7 @@ pipeline {
       steps {
         sh 'echo "Running..."'
         sh 'chmod +x run.sh'
-        sh 'run.sh'
+        sh './run.sh'
       }
     }
 
