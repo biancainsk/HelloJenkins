@@ -6,7 +6,7 @@ pipeline {
         sh 'echo "Building..."'
         sh 'chmod +x build.sh'
         sh '/var/jenkins_home/workspace/HelloJenkins_main/build.sh'
-        archiveArtifacts(artifacts: 'scripts/', fingerprint: true)
+        archiveArtifacts(artifacts: 'build/teste.out', fingerprint: true)
       }
     }
 
