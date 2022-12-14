@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/HelloJenkins.dir/main.cpp.o  -o HelloJenkins  ../src/libHello_Jenkins.a 
