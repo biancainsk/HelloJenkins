@@ -60,15 +60,15 @@ include apps/CMakeFiles/HelloJenkins.dir/flags.make
 apps/CMakeFiles/HelloJenkins.dir/main.cpp.o: apps/CMakeFiles/HelloJenkins.dir/flags.make
 apps/CMakeFiles/HelloJenkins.dir/main.cpp.o: ../apps/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Bianca/HelloJenkins/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/HelloJenkins.dir/main.cpp.o"
-	cd /mnt/c/Users/Bianca/HelloJenkins/build/apps && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloJenkins.dir/main.cpp.o -c /mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp
+	cd /mnt/c/Users/Bianca/HelloJenkins/build/apps && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloJenkins.dir/main.cpp.o -c /mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp
 
 apps/CMakeFiles/HelloJenkins.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloJenkins.dir/main.cpp.i"
-	cd /mnt/c/Users/Bianca/HelloJenkins/build/apps && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp > CMakeFiles/HelloJenkins.dir/main.cpp.i
+	cd /mnt/c/Users/Bianca/HelloJenkins/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp > CMakeFiles/HelloJenkins.dir/main.cpp.i
 
 apps/CMakeFiles/HelloJenkins.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloJenkins.dir/main.cpp.s"
-	cd /mnt/c/Users/Bianca/HelloJenkins/build/apps && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp -o CMakeFiles/HelloJenkins.dir/main.cpp.s
+	cd /mnt/c/Users/Bianca/HelloJenkins/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bianca/HelloJenkins/apps/main.cpp -o CMakeFiles/HelloJenkins.dir/main.cpp.s
 
 # Object files for target HelloJenkins
 HelloJenkins_OBJECTS = \

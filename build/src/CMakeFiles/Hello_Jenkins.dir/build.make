@@ -60,15 +60,15 @@ include src/CMakeFiles/Hello_Jenkins.dir/flags.make
 src/CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.o: src/CMakeFiles/Hello_Jenkins.dir/flags.make
 src/CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.o: ../src/helloJenkins.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Bianca/HelloJenkins/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.o"
-	cd /mnt/c/Users/Bianca/HelloJenkins/build/src && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.o -c /mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp
+	cd /mnt/c/Users/Bianca/HelloJenkins/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.o -c /mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp
 
 src/CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.i"
-	cd /mnt/c/Users/Bianca/HelloJenkins/build/src && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp > CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.i
+	cd /mnt/c/Users/Bianca/HelloJenkins/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp > CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.i
 
 src/CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.s"
-	cd /mnt/c/Users/Bianca/HelloJenkins/build/src && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp -o CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.s
+	cd /mnt/c/Users/Bianca/HelloJenkins/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bianca/HelloJenkins/src/helloJenkins.cpp -o CMakeFiles/Hello_Jenkins.dir/helloJenkins.cpp.s
 
 # Object files for target Hello_Jenkins
 Hello_Jenkins_OBJECTS = \

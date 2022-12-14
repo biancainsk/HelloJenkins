@@ -1,1 +1,1 @@
-/usr/bin/g++-10  -g  -rdynamic CMakeFiles/HelloJenkins.dir/main.cpp.o  -o HelloJenkins  ../src/libHello_Jenkins.a 
+/usr/bin/c++    -rdynamic CMakeFiles/HelloJenkins.dir/main.cpp.o  -o HelloJenkins  ../src/libHello_Jenkins.a 
