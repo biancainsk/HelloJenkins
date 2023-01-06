@@ -17,6 +17,5 @@ pipeline {
         sh './run.sh'
       }
     }
-
   }
 }
